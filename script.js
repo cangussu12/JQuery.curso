@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    console.log($('#exemplo'))
+
+	console.log($('#exemplo'))
+
+
+	
 })
