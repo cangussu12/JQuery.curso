@@ -8,9 +8,7 @@
 		<script>
 
 			$(document).ready(() => {
-				
-				$('.item2').remove()
-
+				console.log($('div').attr('style', 'background-color: blue; width: 200px; height: 200px'))
 			})
 
 		</script>
@@ -18,19 +16,11 @@
 
 	<body>
 		
-		<ul id="lista1">
-			<li>Item 1</li>
-			<li class="item2">Item 2</li>
-			<li>Item 3</li>
-		</ul>
+		<img src="esfera_1.png" border="5" />
 
-		<div id="lista2">
-			<div>Item 1</div>
-			<div class="item2">Item 2</div>
-			<div>Item 3</div>
-		</div>
+		<div style="background-color: red; width: 100px; height: 100px"></div>
 
-		<hr id="linha" />
+		<input type="text" value="Eu sou um input" />
 
 	</body>
 
